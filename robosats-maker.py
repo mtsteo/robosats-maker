@@ -277,7 +277,7 @@ async def main():
 
         print(f"hour: {hour}")
 
-        if hour == 22 and order_id is None:
+        if hour == 6 and order_id is None:
             print(f"Making order at {utc_time}")
             order_result = await make_order(
                 token=robosats_token,
